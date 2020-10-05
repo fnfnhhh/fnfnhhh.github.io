@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-10-02T09:32:57.775Z</updated>
+  <updated>2020-10-05T14:03:21.822Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MyFirstArticle</title>
+    <link href="http://example.com/2020/10/06/MyFirstArticle/"/>
+    <id>http://example.com/2020/10/06/MyFirstArticle/</id>
+    <published>2020-10-05T20:50:02.000Z</published>
+    <updated>2020-10-05T14:03:21.822Z</updated>
+    
+    <content type="html"><![CDATA[<p>这几天花了好长(?)时间用hexo搭了一篇博客。。。<br>以下总结为几点：<br>首先，是<strong>hexo的基本命令</strong>：<br>1  <strong>hexo clean</strong>  （个人理解为清除缓存功能）<br>2  <strong>hexo g</strong>       (emmmmmm，应该是用于运行自己写下命令吧)<br>3  <strong>hexo s</strong>       （一般用于hexo g后面，大概是浏览效果吧）<br>4  <strong>hexo d</strong>       (将设计好的本地页面部署到Git上)</p><p>然后，最近发现了一些组合命令</p><p><strong>hexo g -d</strong></p><p>优点：比较快速，不用等待运行时间，一步到位，方便简洁</p><p>缺点：无法浏览，要是命令出现bug（尤其是搭建主题时），整个博客会直接崩掉。。。</p><p>​           然后事情就麻烦了</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这几天花了好长(?)时间用hexo搭了一篇博客。。。&lt;br&gt;以下总结为几点：&lt;br&gt;首先，是&lt;strong&gt;hexo的基本命令&lt;/strong&gt;：&lt;br&gt;1  &lt;strong&gt;hexo clean&lt;/strong&gt;  （个人理解为清除缓存功能）&lt;br&gt;2  &lt;strong&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="hexo blog" scheme="http://example.com/tags/hexo-blog/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
