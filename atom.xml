@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-10-05T14:03:21.822Z</updated>
+  <updated>2020-10-06T12:11:50.837Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>A Specil Article</title>
+    <link href="http://example.com/2020/10/07/A-Specil-Article/"/>
+    <id>http://example.com/2020/10/07/A-Specil-Article/</id>
+    <published>2020-10-06T19:42:33.000Z</published>
+    <updated>2020-10-06T12:11:50.837Z</updated>
+    
+    <content type="html"><![CDATA[<p>虽然说很多人已经在中学学习过了，但由于时间间隔太长，已经遗忘了大部分，就做一次归纳总结吧</p><h1 id="二进制"><a href="#二进制" class="headerlink" title="二进制"></a>二进制</h1><p>[二进制_百度百科]: </p><p>二进制（binary）在<a href="https://baike.baidu.com/item/%E6%95%B0%E5%AD%A6/107037">数学</a>和<a href="https://baike.baidu.com/item/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/1705">数字电路</a>中指以2为基数的记数系统，以2为基数代表系统是二进位制的。这一系统中，通常用两个不同的符号0（代表零）和1（代表一）来表示。</p><h4 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h4><ol><li><p>将值除以2，记下余数。</p></li><li><p>只要所得的商不为0，继续将最新的商除以2，并记下余数。</p></li><li><p>商为0时，将余数按照记录的顺序从下往上依次排列，即可得到该数的二进制。</p><h6 id="举个栗子"><a href="#举个栗子" class="headerlink" title="举个栗子"></a>举个栗子</h6></li></ol><p><img src="C:\Users\Administrator\Pictures\d01373f082025aaf317d0612f5edab64024f1a9f.png" alt="d01373f082025aaf317d0612f5edab64024f1a9f" loading="lazy"></p><h1 id="八进制"><a href="#八进制" class="headerlink" title="八进制"></a>八进制</h1><p>[八进制_百度百科]: </p><p>八进制，Octal，缩写OCT或O，一种以8为基数的<a href="https://baike.baidu.com/item/%E8%AE%A1%E6%95%B0%E6%B3%95/1591430">计数法</a>，采用0，1，2，3，4，5，6，7八个数字，逢八进1。一些编程语言中常常以数字0开始表明该数字是八进制。八进制的数和二进制数可以按位对应（八进制一位对应二进制三位），因此常应用在<a href="https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA">计算机</a>语言中。</p><h4 id="算法-1"><a href="#算法-1" class="headerlink" title="算法"></a>算法</h4><p>与二进制相似</p><p>十进制化八进制：采用除8取余法。</p><ol><li><p>将值除以8，记下余数。</p></li><li><p>只要所得的商不为0，继续将最新的商除以8，并记下余数。</p></li><li><p>商为0时，将余数按照记录的顺序从下往上依次排列，即可得到该数的二进制。</p><h6 id="举个栗子-1"><a href="#举个栗子-1" class="headerlink" title="举个栗子"></a>举个栗子</h6><p><img src="C:\Users\Administrator\Pictures\2345截图20201006200948.png" alt="2345截图20201006200948" loading="lazy"></p><h2 id="常用转换表"><a href="#常用转换表" class="headerlink" title="常用转换表"></a>常用转换表</h2><p><img src="C:\Users\Administrator\Pictures\u=2342573782,1111918725&fm=26&gp=0.jpg" alt="u=2342573782,1111918725&amp;fm=26&amp;gp=0" loading="lazy"></p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;虽然说很多人已经在中学学习过了，但由于时间间隔太长，已经遗忘了大部分，就做一次归纳总结吧&lt;/p&gt;
+&lt;h1 id=&quot;二进制&quot;&gt;&lt;a href=&quot;#二进制&quot; class=&quot;headerlink&quot; title=&quot;二进制&quot;&gt;&lt;/a&gt;二进制&lt;/h1&gt;&lt;p&gt;[二进制_百度百科]: &lt;/</summary>
+      
+    
+    
+    
+    
+    <category term="h-p-b-d a-gift 二进制/十进制/八进制" scheme="http://example.com/tags/h-p-b-d-a-gift-%E4%BA%8C%E8%BF%9B%E5%88%B6-%E5%8D%81%E8%BF%9B%E5%88%B6-%E5%85%AB%E8%BF%9B%E5%88%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>MyFirstArticle</title>
