@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-10-10T12:40:32.638Z</updated>
+  <updated>2020-10-11T13:49:37.345Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python学习1</title>
+    <link href="http://example.com/2020/10/12/Python%E5%AD%A6%E4%B9%A01/"/>
+    <id>http://example.com/2020/10/12/Python%E5%AD%A6%E4%B9%A01/</id>
+    <published>2020-10-11T21:02:05.000Z</published>
+    <updated>2020-10-11T13:49:37.345Z</updated>
+    
+    <content type="html"><![CDATA[<h6 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h6><p>最近除了学习PHP语法外，还接触了部分Python。</p><p>个人觉得比起C语言和PHP，Python更加简洁，也更容易入手，非常适合新手。</p><h4 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h4><h5 id="输出语句"><a href="#输出语句" class="headerlink" title="输出语句"></a>输出语句</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print（   ）</span><br></pre></td></tr></table></figure><h5 id="转换数据类型语句"><a href="#转换数据类型语句" class="headerlink" title="转换数据类型语句"></a>转换数据类型语句</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">float（   ）&#x2F;&#x2F;将括号内的内容转换为浮点型。</span><br><span class="line">str(    )&#x2F;&#x2F;将括号内的内容转换为字符串。</span><br><span class="line">int（   ）&#x2F;&#x2F;将括号内的内容转换为整数。</span><br></pre></td></tr></table></figure><p>数据之间用+连接，只有相同类型的数据之间才可以连接。</p><p>for example：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">print（1+1）&#x2F;&#x2F;将输出2</span><br><span class="line">print(1+&quot;1&quot;)&#x2F;&#x2F;失败</span><br><span class="line">print（&quot;1&quot;+&quot;1&quot;)&#x2F;&#x2F;将输出11</span><br><span class="line"></span><br></pre></td></tr></table></figure><h5 id="条件判断语句"><a href="#条件判断语句" class="headerlink" title="条件判断语句"></a>条件判断语句</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">if      else&#x2F;&#x2F;用于两个判断</span><br><span class="line">if    elif   else&#x2F;&#x2F;在两个判断的基础上新增一个判断</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>举个例子</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">a&#x3D;3</span><br><span class="line">if a&gt;&#x3D;2:</span><br><span class="line">  print(a)</span><br><span class="line">else:</span><br><span class="line">  print(a+1)</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>注意！！！！</p><p>这里的if与else首字母需对齐，print与print首字母也需对齐。</p><p>同样的</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">a&#x3D;3</span><br><span class="line">if a&gt;&#x3D;2:</span><br><span class="line">  print(a)</span><br><span class="line">elif a&gt;&#x3D;10</span><br><span class="line">  print(a+7)</span><br><span class="line">else:</span><br><span class="line">  print(a+1)</span><br><span class="line"></span><br></pre></td></tr></table></figure><h6 id="还有if嵌套"><a href="#还有if嵌套" class="headerlink" title="还有if嵌套"></a>还有if嵌套</h6><p>举个例子、、</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">a &#x3D;26</span><br><span class="line">if a&gt;&#x3D;60:</span><br><span class="line">    print(&quot;你已经及格&quot;)</span><br><span class="line">    if a&gt;&#x3D;80:</span><br><span class="line">        print(&quot;你很优秀&quot;)</span><br><span class="line">    else:</span><br><span class="line">        print(&quot;你只是一般&quot;)</span><br><span class="line">else:</span><br><span class="line">    print(&quot;不及格&quot;)</span><br><span class="line">    if 30&lt;&#x3D;a&lt;&#x3D;60:</span><br><span class="line">        print(&quot;你还可以再抢救一下&quot;)</span><br><span class="line">    else:</span><br><span class="line">        print(&quot;学渣&quot;)</span><br><span class="line"> </span><br><span class="line">print(&quot;程序结束&quot;)</span><br></pre></td></tr></table></figure><p>同样的</p><p>同级的if与else对齐，执行命令的语句对齐。</p><h5 id="input（）语句"><a href="#input（）语句" class="headerlink" title="input（）语句"></a>input（）语句</h5><p>input()函数是输入函数，当你在函数的括号内写出问题时，input()函数会将此问题原样显示在屏幕上，并在终端区域等待你针对此问题的回答。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">input（&quot;请选择A,B,C,D&quot;)&#x2F;&#x2F;屏幕上会出现  请选择A,B,C,D  的语句。</span><br></pre></td></tr></table></figure><p>input会对输入的答案进行储存，如果需要把答案提取出来，需将input（）赋值给一个变量，并将变量输出。</p><p>例如</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">input(&quot;请在以下四个选项【A,B,C,D】中，输入你的答案:&quot;)</span><br><span class="line">name &#x3D; input(&quot;请输入你的答案：&quot;)</span><br><span class="line"></span><br><span class="line">print (name)</span><br></pre></td></tr></table></figure><h5 id="练习："><a href="#练习：" class="headerlink" title="练习："></a>练习：</h5><p>分享一下自己做的一个综合性练习</p><table><thead><tr><th>题目要求</th><th>提示</th></tr></thead><tbody><tr><td><strong>注意：以下背景与题目要求相关</strong> 小精灵：您好，欢迎来到古灵阁，请问您需要帮助吗？需要or不需要？ 你：需要 小精灵：请问您需要什么帮助呢？1 存取款；2 货币兑换；3 咨询 你：2 小精灵：金加隆和人民币的兑换率为1:51.3，即一金加隆=51.3人民币 小精灵：请问您需要兑换多少金加隆呢？ （你说了一个数字N） 小精灵：好的，我知道了，您需要兑换（你说的数字N）金加隆。 小精灵：那么，您需要付给我（你说的数字N*51.3）人民币。</td><td>和小精灵的对话可以被这么拆分：<br/>1.小精灵通过input()函数进行提问。<br/>2.提问分为两个基础条件：基础条件1<code>if</code>需要帮助；基础条件2<code>else</code>不需要帮助。<br/>3.在<strong>基础条件1</strong>需要帮助的情况下，又分为3个额外条件：<code>if</code>1存取款；<code>elif</code>2货币兑换；<code>else</code>3咨询。<br/>4.小精灵会根据你的选择，给予不同的回答。如果选择1-存取款或者3-咨询，小精灵会推荐你去对应的窗口。<br/>5.如果选择<code>elif</code>条件2-货币兑换，需要再通过input()函数提一个问题：<strong>请问您需要兑换多少金加隆呢？</strong><br/>6.当获得了回答后，由于1金加隆=51.3人民币，而你支付的是人民币，所以需要计算出支付的人民币数额。<br/>7.这时，你需要使用<code>float()</code>函数，将回答的数额转换为<strong>浮点类型</strong>进行计算，再通过<code>str()</code>函数，转换为<strong>字符串类型</strong>才能进行数据拼接，打印出小精灵说的话<strong>那么，您需要付给我（你说的数字N*51.3）人民币。</strong><br/>8.在<strong>基础条件2</strong>不需要帮助的情况下，小精灵会礼貌的说再见。</td></tr></tbody></table><p>接下来是我对该练习的解答</p><p>运行成功，但不知道是否正确，权当参考</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">a&#x3D;input(&quot;您好，欢迎来到古灵阁，请问您需要帮助吗？需要or不需要？&quot;)</span><br><span class="line">if a&#x3D;&#x3D;&quot;需要&quot;:</span><br><span class="line">    b&#x3D;input(&quot;小精灵：请问您需要什么帮助呢？1 存取款；2 货币兑换；3 咨询&quot;)</span><br><span class="line">    if b&#x3D;&#x3D;&quot;1&quot;:</span><br><span class="line">        print(&quot;小精灵推荐你去存取款窗口&quot;)</span><br><span class="line">    elif b&#x3D;&#x3D;&quot;2&quot;:</span><br><span class="line">        print(&quot;小精灵：金加隆和人民币的兑换率为1:51.3，即一金加隆&#x3D;51.3人民币&quot;)</span><br><span class="line">        N&#x3D;input(&quot;小精灵：请问您需要兑换多少金加隆呢？&quot;)</span><br><span class="line">        print(&quot;小精灵：好的，我知道了，您需要兑换&quot;+N+&quot;金加隆。&quot;)</span><br><span class="line">        N&#x3D;float(N)</span><br><span class="line">        k&#x3D;str(N*51.3)</span><br><span class="line">        print(&quot;小精灵：那么，您需要付给我&quot;+k+&quot;人民币&quot;)</span><br><span class="line">    else:</span><br><span class="line">              print(&quot;小精灵推荐你去咨询窗口。&quot;)</span><br><span class="line">else:</span><br><span class="line">     print(&quot;小精灵:好的，再见。&quot;)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h6 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h6&gt;&lt;p&gt;最近除了学习PHP语法外，还接触了部分Python。&lt;/p&gt;
+&lt;p&gt;个人觉得比起C语言和PHP，Python更加简洁，也更容易入手，非常适合</summary>
+      
+    
+    
+    
+    
+    <category term="-python" scheme="http://example.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PHP 学习3</title>
+    <link href="http://example.com/2020/10/12/PHP-%E5%AD%A6%E4%B9%A03/"/>
+    <id>http://example.com/2020/10/12/PHP-%E5%AD%A6%E4%B9%A03/</id>
+    <published>2020-10-11T18:59:31.000Z</published>
+    <updated>2020-10-11T10:59:31.570Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>PHP语法学习2</title>
